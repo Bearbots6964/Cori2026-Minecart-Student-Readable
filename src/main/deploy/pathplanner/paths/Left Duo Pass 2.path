@@ -1,0 +1,151 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 3.123783249627976,
+        "y": 7.006090355282738
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 3.9561665271577375,
+        "y": 7.731581101190477
+      },
+      "isLocked": false,
+      "linkedName": "Left Duo Check 1"
+    },
+    {
+      "anchor": {
+        "x": 5.567099376860119,
+        "y": 7.394386346726191
+      },
+      "prevControl": {
+        "x": 4.567099376860119,
+        "y": 7.394386346726191
+      },
+      "nextControl": {
+        "x": 6.567099376860119,
+        "y": 7.394386346726191
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 6.171464285714286,
+        "y": 4.907269159226192
+      },
+      "prevControl": {
+        "x": 5.639601215031395,
+        "y": 5.781966703726754
+      },
+      "nextControl": {
+        "x": 6.559434012276786,
+        "y": 4.269217401413691
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 7.319835100446428,
+        "y": 4.653312732514881
+      },
+      "prevControl": {
+        "x": 6.816122907366072,
+        "y": 4.445889834449405
+      },
+      "nextControl": {
+        "x": 8.520555211351219,
+        "y": 5.147755488895886
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 6.0312519531249995,
+        "y": 7.394386346726191
+      },
+      "prevControl": {
+        "x": 8.390595656622025,
+        "y": 7.420365187872023
+      },
+      "nextControl": {
+        "x": 4.809918540178222,
+        "y": 7.380938188802437
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 3.123783249627976,
+        "y": 7.006090355282738
+      },
+      "prevControl": {
+        "x": 3.7288822544642857,
+        "y": 7.611393275669643
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Left Duo Check 1"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.5584417301184434,
+      "rotationDegrees": 0.0
+    },
+    {
+      "waypointRelativePos": 0.9267594648900177,
+      "rotationDegrees": 0.0
+    },
+    {
+      "waypointRelativePos": 1.300827516920473,
+      "rotationDegrees": -72.86798947315478
+    },
+    {
+      "waypointRelativePos": 1.8177942576142134,
+      "rotationDegrees": -76.32923412639266
+    },
+    {
+      "waypointRelativePos": 2.79356361040609,
+      "rotationDegrees": 0.0
+    },
+    {
+      "waypointRelativePos": 3.3988671214044004,
+      "rotationDegrees": 108.26205265437375
+    },
+    {
+      "waypointRelativePos": 3.935067681895095,
+      "rotationDegrees": 180.0
+    },
+    {
+      "waypointRelativePos": 4.483694215313027,
+      "rotationDegrees": 180.0
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.25,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 116.711429747
+  },
+  "reversed": false,
+  "folder": "Left Duo",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 116.711429747
+  },
+  "useDefaultConstraints": true
+}

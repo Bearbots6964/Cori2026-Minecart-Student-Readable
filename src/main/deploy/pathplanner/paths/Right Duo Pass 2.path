@@ -1,0 +1,185 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 3.7376914062499997,
+        "y": 0.801313622556753
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 4.526392880678236,
+        "y": 0.5530920693448264
+      },
+      "isLocked": false,
+      "linkedName": "Right Duo Check 1"
+    },
+    {
+      "anchor": {
+        "x": 5.499247017221993,
+        "y": 0.9022968252522128
+      },
+      "prevControl": {
+        "x": 5.3357773348478545,
+        "y": 0.713146982681572
+      },
+      "nextControl": {
+        "x": 6.340526779153685,
+        "y": 1.8757368675656503
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 5.918690569196428,
+        "y": 2.8958053850446426
+      },
+      "prevControl": {
+        "x": 5.941964475345752,
+        "y": 1.7572303960476194
+      },
+      "nextControl": {
+        "x": 5.90438647254816,
+        "y": 3.595571319453069
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 6.9752586030505945,
+        "y": 3.686100492931547
+      },
+      "prevControl": {
+        "x": 6.756861310312646,
+        "y": 3.872056333768576
+      },
+      "nextControl": {
+        "x": 7.369883355762664,
+        "y": 3.350094598418338
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 7.710863560267857,
+        "y": 1.9972311197916666
+      },
+      "prevControl": {
+        "x": 7.781291400379946,
+        "y": 2.4586787315323466
+      },
+      "nextControl": {
+        "x": 7.6624879413938185,
+        "y": 1.680271040363209
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 6.220057018689154,
+        "y": 0.9022968252522128
+      },
+      "prevControl": {
+        "x": 7.133766890170308,
+        "y": 1.3346882745816169
+      },
+      "nextControl": {
+        "x": 5.883643644300553,
+        "y": 0.7430972028492243
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 3.7376914062499997,
+        "y": 0.801313622556753
+      },
+      "prevControl": {
+        "x": 4.958700019713844,
+        "y": 0.6647242401711617
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Right Duo Check 1"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.5320431472081218,
+      "rotationDegrees": -90.0
+    },
+    {
+      "waypointRelativePos": 1.0516735406091375,
+      "rotationDegrees": -36.61083456290946
+    },
+    {
+      "waypointRelativePos": 1.6143718274111662,
+      "rotationDegrees": 90.43598942685689
+    },
+    {
+      "waypointRelativePos": 1.9685517131979702,
+      "rotationDegrees": 98.53069035393449
+    },
+    {
+      "waypointRelativePos": 3.017449238578679,
+      "rotationDegrees": -31.380197441776396
+    },
+    {
+      "waypointRelativePos": 3.8469622461928887,
+      "rotationDegrees": -101.46420604182653
+    },
+    {
+      "waypointRelativePos": 4.447176395939087,
+      "rotationDegrees": -144.4431118879181
+    },
+    {
+      "waypointRelativePos": 4.991632296954315,
+      "rotationDegrees": -90.0
+    },
+    {
+      "waypointRelativePos": 5.718710342639593,
+      "rotationDegrees": -90.0
+    }
+  ],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 1.416961669921875,
+      "maxWaypointRelativePos": 4.6680450439453125,
+      "constraints": {
+        "maxVelocity": 2.0,
+        "maxAcceleration": 5.0,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.25,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -104.32138964320545
+  },
+  "reversed": false,
+  "folder": "Right Duo",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -104.32138964320545
+  },
+  "useDefaultConstraints": true
+}

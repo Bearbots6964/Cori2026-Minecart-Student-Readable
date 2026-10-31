@@ -1,0 +1,116 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 3.5528215680803577,
+        "y": 4.010897181919643
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 0.9232081938244048,
+        "y": 3.916688197544643
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 0.5721063988095239,
+        "y": 7.134679501488096
+      },
+      "prevControl": {
+        "x": 2.202778273809524,
+        "y": 7.290348632812499
+      },
+      "nextControl": {
+        "x": 0.32323782392930406,
+        "y": 7.110921714615402
+      },
+      "isLocked": false,
+      "linkedName": "Depot"
+    },
+    {
+      "anchor": {
+        "x": 0.5562825520833332,
+        "y": 5.6529883277529756
+      },
+      "prevControl": {
+        "x": 0.5229363210688901,
+        "y": 6.6435616526624965
+      },
+      "nextControl": {
+        "x": 0.5698633277529761,
+        "y": 5.249561802455357
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.3484944661458333,
+        "y": 5.0194634951636905
+      },
+      "prevControl": {
+        "x": 0.9384814685639881,
+        "y": 4.840853864397321
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.9558958693771644,
+      "rotationDegrees": -103.34900000000002
+    },
+    {
+      "waypointRelativePos": 1.989653168252595,
+      "rotationDegrees": -103.34900000000002
+    }
+  ],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0.844783316633267,
+      "maxWaypointRelativePos": 2.0775770290581166,
+      "constraints": {
+        "maxVelocity": 1.0,
+        "maxAcceleration": 5.0,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "Intake",
+      "waypointRelativePos": 0,
+      "endWaypointRelativePos": null,
+      "command": null
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.25,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 156.99958177687253
+  },
+  "reversed": false,
+  "folder": null,
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 180.0
+  },
+  "useDefaultConstraints": true
+}
