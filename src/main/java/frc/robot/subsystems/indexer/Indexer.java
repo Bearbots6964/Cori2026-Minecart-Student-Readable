@@ -76,9 +76,7 @@ public class Indexer extends SubsystemBase {
     // Write a PRIVATE field named requestedIndexerMode of TYPE IndexerOperatingMode.
     // Set its initial value to IndexerOperatingMode.IDLING.
     // Hint: look at requestedRollerAction in Intake.java.
-    @Setter
-    @AutoLogOutput
-    private IndexerOperatingMode requestedIndexerMode = IndexerOperatingMode.IDLING;
+    
 
 
     private final IndexerVisualizer indexerVisualizer;
@@ -138,12 +136,7 @@ public class Indexer extends SubsystemBase {
         //   using the NEGATIVE of IndexerConstants.MOTOR_SPEED_PERCENTAGE.
         // Hint: enum values are compared using == (not =).
         // Write your conditions and motor instructions below.
-        if (requestedIndexerMode == IndexerOperatingMode.IDLING)
-            indexerHardware.stop();
-        else if (requestedIndexerMode == IndexerOperatingMode.FEEDING)
-            indexerHardware.setIndexerSpeedRps(requestedSpeedRps);
-        else if (requestedIndexerMode == IndexerOperatingMode.REVERSING)
-            indexerHardware.setIndexerDutyCycle(-IndexerConstants.MOTOR_SPEED_PERCENTAGE);
+        
 
     }
 
@@ -163,12 +156,7 @@ public class Indexer extends SubsystemBase {
     // PROVIDED ADVANCED EXAMPLE — READ, BUT DO NOT REWRITE THIS YET.
     // As long as the command is scheduled, request FEEDING. When it ends,
     // change the request to IDLING. We'll revisit runEnd() and finallyDo().
-    public Command feedFuelUntilInterrupted() {
-        return runEnd(() -> requestedIndexerMode = IndexerOperatingMode.FEEDING,
-            () -> requestedIndexerMode = IndexerOperatingMode.IDLING).finallyDo(
-            () -> requestedIndexerMode = IndexerOperatingMode.IDLING
-        );
-    }
+   
 
 
     // TASK 7 — CREATE A COMMAND TO STOP THE INDEXER.
@@ -176,23 +164,13 @@ public class Indexer extends SubsystemBase {
     // It needs to do TWO things: call indexerHardware.stop() and assign
     // IndexerOperatingMode.IDLING to requestedIndexerMode.
     // Hint: use braces { ... } inside the lambda to run two statements.
-    public Command stopIndexerAndSetIdle() {
-        return runOnce(() -> {
-            indexerHardware.stop(); requestedIndexerMode = IndexerOperatingMode.IDLING;
-        });
-    }
+    
 
 
     // TASK 8 — DEFINE THE THREE POSSIBLE OPERATING MODES.
     // An enum is a limited list of named choices. Write the three values
     // FEEDING, IDLING, REVERSING, separated with commas.
     // Hint: compare IntakeSystemMode in Intake.java.
-    public enum IndexerOperatingMode {
-        FEEDING,   // Move fuel toward the shooter.
-        IDLING,    // Stop requesting fuel movement.
-        REVERSING  // Move fuel back toward the intake.
-
-    }
-
+   
 
 } // End of the Indexer class.
